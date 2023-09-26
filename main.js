@@ -116,4 +116,7 @@ function reverseList(list1) {
 
 
   //2:
-  
+function squareSum(numbers){
+    const sumOfSquares = numbers.reduce((sum, num) => sum + num ** 2, 0);
+    return sumOfSquares;
+  }
